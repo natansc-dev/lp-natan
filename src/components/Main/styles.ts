@@ -9,11 +9,22 @@ export const Wrapper = styled.main`
   align-items: center;
   justify-content: center;
   padding: 3rem;
+  &::after {
+    content: '';
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.85);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 0;
+  }
 `
 
 export const Box = styled.div`
   width: 100%;
   max-width: 550px;
+  z-index: 1;
   a:last-child {
     margin-left: 2rem;
   }
@@ -22,6 +33,14 @@ export const Box = styled.div`
 export const Group = styled.div`
   display: flex;
   align-items: center;
+`
+
+export const Video = styled.video`
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  min-height: 100%;
 `
 
 export const Title = styled.h1`
@@ -58,4 +77,5 @@ export const Illustration = styled.img`
   border-radius: 50%;
   border: 10px solid #ffffff1a;
   margin-right: 4rem;
+  z-index: 1;
 `

@@ -12,6 +12,10 @@ type MainProps = {
 
 export const Main = ({ title, subtitle, description, typing }: MainProps) => (
   <S.Wrapper>
+    <S.Video autoPlay loop muted>
+      <source src="/bg-video.mp4" type="video/mp4" />
+    </S.Video>
+
     <S.Illustration
       src="/images/perfil_b.png"
       alt="Um desenvolvedor de frente para um tela com código."

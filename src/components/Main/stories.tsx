@@ -5,19 +5,27 @@ export default {
   title: 'Main',
   component: Main,
   args: {
-    title: 'Title Default',
-    description: 'Description Default'
+    title: 'SOU',
+    subtitle: 'FALA GALERA!',
+    description:
+      'Im a Freelance UI /UX Designer and Developer based in London, England.<br />I strives to build immersive and beautiful web applications through carefully crafted code and user - centric design.',
+    typing: ['DESENVOLVEDOR', 'GAMER']
   }
 } as Meta
 
 type MainProps = {
   title: string
+  subtitle: string
   description: string
+  typing: string[]
 }
 
-export const Basic: Story = (args: MainProps) => <Main {...args} />
+export const Default: Story = (args: MainProps) => <Main {...args} />
 
-Basic.args = {
-  title: 'React Hard',
-  description: 'TypeScript, ReactJS, NextJS, e Styled Components'
+Default.args = {
+  title: 'SOU',
+  subtitle: 'FALA GALERA!',
+  description:
+    'Im a Freelance UI /UX Designer and Developer based in London, England.<br />I strives to build immersive and beautiful web applications through carefully crafted code and user - centric design.',
+  typing: ['DESENVOLVEDOR', 'GAMER']
 }

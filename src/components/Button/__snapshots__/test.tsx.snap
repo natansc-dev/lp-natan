@@ -1,11 +1,60 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Button /> should render the heading 1`] = `
-<main
-  class=""
+exports[`<Button /> Test 001 - should render the link 1`] = `
+.c0 {
+  background-color: #fa5b0f;
+  color: #FFF;
+  border: none;
+  border-radius: 26px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 1.6rem;
+  padding: 0 32px;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.c0 span {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c0 span svg {
+  font-size: 1.2rem;
+  margin-right: 8px;
+}
+
+<a
+  class="c0"
+  color="#FFF"
 >
-  <h1>
-    Button
-  </h1>
-</main>
+  <span>
+    <svg
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      stroke-width="0"
+      viewBox="0 0 512 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M256 288c79.5 0 144-64.5 144-144S335.5 0 256 0 112 64.5 112 144s64.5 144 144 144zm128 32h-55.1c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16H128C57.3 320 0 377.3 0 448v16c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48v-16c0-70.7-57.3-128-128-128z"
+      />
+    </svg>
+    MAIS SOBRE MIM
+  </span>
+</a>
 `

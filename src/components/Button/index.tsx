@@ -6,14 +6,13 @@ type ButtonProps = {
   url: string
   label: string
   icon: ReactNode
-  bg: string
   color: string
 }
 
-export const Button = ({ label, icon, url, bg, color }: ButtonProps) => {
+export const Button = ({ label, icon, url, color }: ButtonProps) => {
   return (
     <Link href={url}>
-      <S.Button background={bg} color={color}>
+      <S.Button color={color}>
         <span>
           {icon}
           {label}

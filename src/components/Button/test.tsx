@@ -8,16 +8,13 @@ describe('<Button />', () => {
     const { container } = render(
       <Button
         url={'#'}
-        label={'MAIS SOBRE MIM'}
+        label={'Mais sobre mim'}
         icon={<FaUserAlt />}
-        bg={'#fa5b0f'}
         color={'#FFF'}
       />
     )
 
-    console.log(container)
-
-    expect(screen.getByText('MAIS SOBRE MIM'))
+    expect(screen.getByText('Mais sobre mim'))
 
     expect(container.firstChild).toMatchSnapshot()
   })
@@ -26,9 +23,8 @@ describe('<Button />', () => {
     const { container } = render(
       <Button
         url={'#'}
-        label={'MAIS SOBRE MIM'}
+        label={'Mais sobre mim'}
         icon={<FaUserAlt />}
-        bg={'transparent'}
         color={'#fa5b0f'}
       />
     )

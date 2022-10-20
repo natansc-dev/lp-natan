@@ -100,8 +100,8 @@ exports[`<Main /> Test 001 - should render the main 1`] = `
 }
 
 .c10 {
-  background-color: #fa5b0f;
-  color: #FFF;
+  background-color: #FA5B0F;
+  color: #FFFFFF;
   border: none;
   border-radius: 26px;
   height: 46px;
@@ -112,9 +112,18 @@ exports[`<Main /> Test 001 - should render the main 1`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  cursor: pointer;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  outline: none;
+  overflow: hidden;
 }
 
 .c10 span {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -127,6 +136,7 @@ exports[`<Main /> Test 001 - should render the main 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  z-index: 2;
 }
 
 .c10 span svg {
@@ -134,10 +144,30 @@ exports[`<Main /> Test 001 - should render the main 1`] = `
   margin-right: 8px;
 }
 
+.c10::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  height: 102%;
+  left: -25%;
+  width: 0%;
+  background-color: #555;
+  -webkit-transform: skew(-22deg);
+  -ms-transform: skew(-22deg);
+  transform: skew(-22deg);
+  -webkit-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  z-index: 1;
+}
+
+.c10:hover::before {
+  width: 180%;
+}
+
 .c11 {
   background-color: transparent;
-  color: #fa5b0f;
-  border: 1px solid #fa5b0f;
+  color: #FA5B0F;
+  border: 1px solid #FA5B0F;
   border-radius: 26px;
   height: 46px;
   line-height: 46px;
@@ -147,9 +177,18 @@ exports[`<Main /> Test 001 - should render the main 1`] = `
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  cursor: pointer;
+  position: relative;
+  text-transform: uppercase;
+  display: inline-block;
+  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  outline: none;
+  overflow: hidden;
 }
 
 .c11 span {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -162,11 +201,36 @@ exports[`<Main /> Test 001 - should render the main 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  z-index: 2;
 }
 
 .c11 span svg {
   font-size: 1.2rem;
   margin-right: 8px;
+}
+
+.c11::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  height: 102%;
+  left: -25%;
+  width: 0%;
+  background-color: #FA5B0F;
+  -webkit-transform: skew(-22deg);
+  -ms-transform: skew(-22deg);
+  transform: skew(-22deg);
+  -webkit-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  z-index: 1;
+}
+
+.c11:hover {
+  color: #FFFFFF;
+}
+
+.c11:hover::before {
+  width: 180%;
 }
 
 .c0 {
@@ -245,7 +309,7 @@ exports[`<Main /> Test 001 - should render the main 1`] = `
       </p>
       <a
         class="c10"
-        color="#FFF"
+        color="#FFFFFF"
       >
         <span>
           <svg
@@ -261,12 +325,12 @@ exports[`<Main /> Test 001 - should render the main 1`] = `
               d="M256 288c79.5 0 144-64.5 144-144S335.5 0 256 0 112 64.5 112 144s64.5 144 144 144zm128 32h-55.1c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16H128C57.3 320 0 377.3 0 448v16c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48v-16c0-70.7-57.3-128-128-128z"
             />
           </svg>
-          MAIS SOBRE MIM
+          Mais sobre mim
         </span>
       </a>
       <a
         class="c11"
-        color="#fa5b0f"
+        color="#FA5B0F"
       >
         <span>
           <svg
@@ -282,7 +346,7 @@ exports[`<Main /> Test 001 - should render the main 1`] = `
               d="M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z"
             />
           </svg>
-          PORTFÓLIO
+          Portfólio
         </span>
       </a>
     </div>

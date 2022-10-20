@@ -43,18 +43,16 @@ export const Home = ({ title, subtitle, description, typing }: HomeProps) => (
 
       <Button
         url={''}
-        label={'MAIS SOBRE MIM'}
+        label={'Mais sobre mim'}
         icon={<FaUserAlt />}
-        bg={'#fa5b0f'}
-        color={'#FFF'}
+        color={'#FFFFFF'}
       />
 
       <Button
         url={''}
-        label={'PORTFÓLIO'}
+        label={'Portfólio'}
         icon={<FaBriefcase />}
-        bg={'transparent'}
-        color={'#fa5b0f'}
+        color={'#FA5B0F'}
       />
     </S.Box>
   </S.Section>

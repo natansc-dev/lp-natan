@@ -12,7 +12,7 @@ export default {
 } as Meta
 
 export const Default: Story = () => (
-  <Button label={''} icon={''} url={''} bg={''} color={''} />
+  <Button label={''} icon={''} url={''} color={''} />
 )
 
 Default.args = {

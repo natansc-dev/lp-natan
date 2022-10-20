@@ -7,7 +7,7 @@ export const Main = () => (
       title={'SOU'}
       subtitle={'FALA GALERA!'}
       description={
-        'Im a Freelance UI /UX Designer and Developer based in London, England.<br />I strives to build immersive and beautiful web applications through carefully crafted code and user - centric design.'
+        'Sou um desenvolvedor do interior de São Paulo, moro em Piracicaba <br /> Me esforço para criar aplicatições Web imersivos e bonitos por meio de código cuidadosamente elaborado e design intuitivo para o usuário.'
       }
       typing={['NATAN CARDOSO', 'DESENVOLVEDOR', 'GAMER']}
     />

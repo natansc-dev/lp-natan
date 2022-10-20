@@ -16,8 +16,7 @@ export const Button = styled.a`
   position: relative;
   text-transform: uppercase;
   display: inline-block;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
   outline: none;
   overflow: hidden;
   span {

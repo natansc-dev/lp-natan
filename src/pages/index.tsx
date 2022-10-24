@@ -1,14 +1,17 @@
 import { Main } from '../components/Main'
 
+import { GetStaticProps } from 'next'
+import { client } from '../graphql/client'
+import { GET_PORTFOLIO } from 'graphql/queries/getData'
+
 export default function Home() {
-  return (
-    <Main
-      title={'SOU'}
-      subtitle={'FALA GALERA!'}
-      description={
-        'Im a Freelance UI /UX Designer and Developer based in London, England.<br />I strives to build immersive and beautiful web applications through carefully crafted code and user - centric design.'
-      }
-      typing={['NATAN CARDOSO', 'DESENVOLVEDOR', 'GAMER']}
-    />
-  )
+  return <Main />
+}
+
+export const getStaticProps: GetStaticProps = async () => {
+  await client.request(GET_PORTFOLIO)
+
+  return {
+    props: {}
+  }
 }

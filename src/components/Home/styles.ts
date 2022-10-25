@@ -63,6 +63,7 @@ export const Highlight = styled.span`
 export const SubTitle = styled.h3`
   font-size: 1.8rem;
   font-weight: 400;
+  text-transform: uppercase;
 `
 
 export const Description = styled.p`

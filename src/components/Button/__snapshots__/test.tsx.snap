@@ -18,8 +18,8 @@ exports[`<Button /> Test 001 - should render the link 1`] = `
   position: relative;
   text-transform: uppercase;
   display: inline-block;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  -webkit-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
   outline: none;
   overflow: hidden;
 }

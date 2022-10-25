@@ -82,6 +82,7 @@ exports[`<Main /> Test 001 - should render the main 1`] = `
 .c5 {
   font-size: 1.8rem;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 .c9 {
@@ -116,8 +117,8 @@ exports[`<Main /> Test 001 - should render the main 1`] = `
   position: relative;
   text-transform: uppercase;
   display: inline-block;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  -webkit-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
   outline: none;
   overflow: hidden;
 }
@@ -181,8 +182,8 @@ exports[`<Main /> Test 001 - should render the main 1`] = `
   position: relative;
   text-transform: uppercase;
   display: inline-block;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  -webkit-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
   outline: none;
   overflow: hidden;
 }
@@ -261,16 +262,14 @@ exports[`<Main /> Test 001 - should render the main 1`] = `
     <img
       alt="Um desenvolvedor de frente para um tela com código."
       class="c3"
-      src="/images/perfil_b.png"
+      src="undefined"
     />
     <div
       class="c4"
     >
       <h3
         class="c5"
-      >
-        FALA GALERA!
-      </h3>
+      />
       <div
         class="c6"
       >
@@ -302,9 +301,9 @@ exports[`<Main /> Test 001 - should render the main 1`] = `
         class="c9"
       >
         <span>
-          Im a Freelance UI /UX Designer and Developer based in London, England.
+          Sou um desenvolvedor do interior de São Paulo, moro em Piracicaba 
           <br />
-          I strives to build immersive and beautiful web applications through carefully crafted code and user - centric design.
+           Me esforço para criar aplicatições Web imersivos e bonitos por meio de código cuidadosamente elaborado e design intuitivo para o usuário.
         </span>
       </p>
       <a

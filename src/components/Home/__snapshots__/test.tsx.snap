@@ -82,6 +82,7 @@ exports[`<Home /> Test 001 - should render the heading 1`] = `
 .c4 {
   font-size: 1.8rem;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 .c8 {
@@ -116,8 +117,8 @@ exports[`<Home /> Test 001 - should render the heading 1`] = `
   position: relative;
   text-transform: uppercase;
   display: inline-block;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  -webkit-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
   outline: none;
   overflow: hidden;
 }
@@ -181,8 +182,8 @@ exports[`<Home /> Test 001 - should render the heading 1`] = `
   position: relative;
   text-transform: uppercase;
   display: inline-block;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  -webkit-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
   outline: none;
   overflow: hidden;
 }
@@ -249,16 +250,14 @@ exports[`<Home /> Test 001 - should render the heading 1`] = `
   <img
     alt="Um desenvolvedor de frente para um tela com código."
     class="c2"
-    src="/images/perfil_b.png"
+    src="undefinedundefined"
   />
   <div
     class="c3"
   >
     <h3
       class="c4"
-    >
-      Fala galera!
-    </h3>
+    />
     <div
       class="c5"
     >
@@ -421,6 +420,7 @@ exports[`<Home /> Test 002 - should render the span typing 1`] = `
 .c4 {
   font-size: 1.8rem;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 .c8 {
@@ -455,8 +455,8 @@ exports[`<Home /> Test 002 - should render the span typing 1`] = `
   position: relative;
   text-transform: uppercase;
   display: inline-block;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  -webkit-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
   outline: none;
   overflow: hidden;
 }
@@ -520,8 +520,8 @@ exports[`<Home /> Test 002 - should render the span typing 1`] = `
   position: relative;
   text-transform: uppercase;
   display: inline-block;
-  -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
-  transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+  -webkit-transition: 0.15s ease-in-out;
+  transition: 0.15s ease-in-out;
   outline: none;
   overflow: hidden;
 }
@@ -588,16 +588,14 @@ exports[`<Home /> Test 002 - should render the span typing 1`] = `
   <img
     alt="Um desenvolvedor de frente para um tela com código."
     class="c2"
-    src="/images/perfil_b.png"
+    src="undefinedundefined"
   />
   <div
     class="c3"
   >
     <h3
       class="c4"
-    >
-      Fala galera!
-    </h3>
+    />
     <div
       class="c5"
     >

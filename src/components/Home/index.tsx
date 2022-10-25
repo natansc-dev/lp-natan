@@ -2,26 +2,34 @@ import * as S from './styles'
 import Typewriter from 'typewriter-effect'
 import { Button } from '../Button'
 import { FaUserAlt, FaBriefcase } from 'react-icons/fa'
+import { getImageUrl } from '../../utils/getImageUrl'
 
 type HomeProps = {
+  photo: string
   title: string
-  subtitle: string
+  regards: string
   description: string
   typing: string[]
 }
 
-export const Home = ({ title, subtitle, description, typing }: HomeProps) => (
+export const Home = ({
+  title,
+  regards,
+  description,
+  typing,
+  photo
+}: HomeProps) => (
   <S.Section>
     <S.Video autoPlay loop muted>
       <source src="/bg-video.mp4" type="video/mp4" />
     </S.Video>
 
     <S.Illustration
-      src="/images/perfil_b.png"
+      src={getImageUrl(photo)}
       alt="Um desenvolvedor de frente para um tela com código."
     />
     <S.Box>
-      <S.SubTitle>{subtitle}</S.SubTitle>
+      <S.SubTitle>{regards}</S.SubTitle>
 
       <S.Group>
         <S.Title>{title}</S.Title>

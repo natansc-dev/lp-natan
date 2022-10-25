@@ -2,10 +2,19 @@ import { gql } from 'graphql-request'
 
 export const GET_PORTFOLIO = gql`
   query GET_PORTFOLIO {
-    portfolio {
+    portfolioWebsite {
       data {
         attributes {
-          teste
+          sectionHome {
+            regards
+            photo {
+              data {
+                attributes {
+                  url
+                }
+              }
+            }
+          }
         }
       }
     }

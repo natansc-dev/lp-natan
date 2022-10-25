@@ -4,7 +4,9 @@ import { Main } from '.'
 
 describe('<Main />', () => {
   it('Test 001 - should render the main', () => {
-    const { container } = render(<Main data-testid="main" />)
+    const { container } = render(
+      <Main data-testid="main" photo_url={''} regards={''} />
+    )
 
     expect(screen.getByTestId('main')).toBeInTheDocument()
 

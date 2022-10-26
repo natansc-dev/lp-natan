@@ -6,4 +6,4 @@ export default {
   component: Main
 } as Meta
 
-export const Default = () => <Main />
+export const Default = () => <Main photo_url={''} regards={''} />

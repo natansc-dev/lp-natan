@@ -50,7 +50,7 @@ export const Home = ({
       </S.Description>
 
       <Button
-        url={''}
+        url={'#'}
         label={'Mais sobre mim'}
         icon={<FaUserAlt />}
         color={'#FFFFFF'}
